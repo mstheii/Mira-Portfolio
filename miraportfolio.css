@@ -85,7 +85,7 @@ h4 {
 .about {
     padding-block: 180px;
     text-align: left;
-    background: url('aboutme.jpg') no-repeat center center/cover;
+    background: url('aboutme.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
