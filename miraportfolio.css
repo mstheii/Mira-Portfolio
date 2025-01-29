@@ -1,0 +1,175 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
+}
+
+h2, h3 {
+    color: #000000;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+header {
+    background-color: #3788cd;
+    padding: 20px 0;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    margin: 0 40px 0 0;
+}
+
+.navbar a {
+    color:#f2f1dc;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #ffd371
+}
+
+h4 {
+    margin: 0 900px 0 0;
+    color:#f2f1dc;
+    font-size: 1.2rem;
+    justify-content: left;
+}
+
+.home {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-image: url(flo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.home h1 {
+    font-size: 2.1rem;
+    margin: 0;
+    color: #3788cd;
+}
+
+.home p {
+    font-size: 1.3rem;
+    margin-top: 1rem;
+    margin-left: 30%;
+    margin-right: 30%;
+    color: black
+}
+
+.about {
+    padding-block: 180px;
+    text-align: left;
+    background: url('aboutme.jpg') no-repeat center center/cover;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-right: 55%;
+    margin-left: 8%;
+    margin-bottom: 1%;
+    color: #3788cd;
+}
+
+.about p {
+    font-size: 1.5rem;
+    margin-right: 54%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+}
+
+.project {
+    text-align: center;
+    padding: 2rem;
+    background-color: #5A99C5;
+    color: #fff;
+}
+
+.project h1 {
+    font-size:xx-large;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.category {
+    text-align: center;
+}
+
+.category h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #FDF6E3;
+}
+
+.image {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.contact {
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.contact h1 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #5A99C5;
+}
+
+.contact p {
+    margin: 4px 0;
+    font-size: 1.3rem;
+    color: black;
+}
+
+.contact a {
+    color: #5A99C5;
+    font-weight: 400;
+}
+
+.footer {
+    background-color:  #FDF6E3;
+    padding: 10px 0;
+    text-align: center;
+    color:#5A99C5;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
