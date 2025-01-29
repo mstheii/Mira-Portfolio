@@ -173,3 +173,48 @@ h4 {
     font-size: 1.2rem;
     font-weight: 500;
 }
+
+@media (max-width: 768px) {
+.navbar ul {
+    flex-direction: column;
+    gap: 10px;
+    margin: 0;
+    text-align: center;
+}
+h4 {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.home h1 {
+    font-size: 1.5rem;
+}
+
+.home p {
+    font-size: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.about h1 {
+    font-size: 2rem;
+    margin: 0 auto 1rem;
+}
+
+.about p {
+    font-size: 1rem;
+    margin: 0 auto 2rem;
+}
+
+.grid {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+.image {
+    max-width: 100%;
+}
+}
+
+
