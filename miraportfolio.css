@@ -20,7 +20,7 @@ ul {
 
 header {
     background-color: #3788cd;
-    padding: 10px 0;
+    padding: 5px 0;
     text-align: center;
     position: sticky;
     top: 0;
@@ -150,7 +150,7 @@ h4 {
 .image {
     width: 100%;
     height: auto;
-    max-width: 700px;
+    max-width: 1800px;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
@@ -187,10 +187,20 @@ h4 {
     font-size: 1.2rem;
     font-weight: 500;
 }
+
 @media (max-width: 768px) {
+
+    .navbar h4 {
+        margin-bottom: 10px;
+    }
+
+    .navbar {
+        display: contents;
+    }
+    
     .navbar ul {
         flex-direction: column;
-        gap: 20px;
+        gap: 10px;
         margin: 0;
     }
 
