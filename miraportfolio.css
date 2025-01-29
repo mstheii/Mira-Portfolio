@@ -177,43 +177,23 @@ h4 {
 @media (max-width: 768px) {
 .navbar ul {
     flex-direction: column;
-    gap: 10px;
-    margin: 0;
-    text-align: center;
-}
-h4 {
-    margin: 0;
-    text-align: center;
-    font-size: 1rem;
-}
-
-.home h1 {
-    font-size: 1.5rem;
+    align-items: center;
+    gap: 20px;
 }
 
 .home p {
-    font-size: 1rem;
     margin-left: 10%;
     margin-right: 10%;
-}
-
-.about h1 {
-    font-size: 2rem;
-    margin: 0 auto 1rem;
-}
-
-.about p {
     font-size: 1rem;
-    margin: 0 auto 2rem;
 }
 
-.grid {
-    grid-template-columns: repeat(1, 1fr);
+.about h1, .about p {
+    margin: 0 10%;
+}
+
+.project .grid {
+    grid-template-columns: 1fr;
     gap: 1rem;
-}
-
-.image {
-    max-width: 100%;
 }
 }
 
